@@ -1,5 +1,3 @@
-## [rsschool-cv](https://aliaksandr-bandziuk.github.io/rsschool-cv/cv)
-
 # Aliaksandr Bandziuk
 
 ## Summary

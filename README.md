@@ -1,1 +1,1 @@
-[https://aliaksandr-bandziuk.github.io/rsschool-cv/](https://aliaksandr-bandziuk.github.io/rsschool-cv/)
+[https://aliaksandr-bandziuk.github.io/cv-html/](https://aliaksandr-bandziuk.github.io/cv-html/)
