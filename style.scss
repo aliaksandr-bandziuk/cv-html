@@ -147,7 +147,7 @@ a {
               transition: all ease-in-out .2s;
             }
             .level-english {
-              width: 70%;
+              width: 60%;
             }
             .level-bel {
               width: 90%;
@@ -185,15 +185,7 @@ a {
         .work {
           padding-top: 20px;
           padding-bottom: 20px;
-          .work__name {
-            font-size: 20px;
-            margin-bottom: 15px;
-          }
-          .work__time {
-            font-size: 16px;
-            color: grey;
-            margin-bottom: 15px;
-          }
+
           ul {
             padding-left: 25px;
             li {
@@ -202,8 +194,46 @@ a {
               line-height: 25px;
             }
           }
+        }   
+        
+        .position-name {
+          font-size: 20px;
+          margin-bottom: 15px;
+        }
+
+        .period {
+          font-size: 16px;
+          color: grey;
+          margin-bottom: 15px;
+        }
+
+      }
+
+      .projects-title {
+        margin-top: 20px;
+        font-size: 16px;
+        color: grey;
+        margin-bottom: 15px;
+      }
+      .projects {
+        display: flex;
+        gap: 20px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        @media (max-width: 470px) {
+          flex-direction: column;
+          gap: 10px;
         }
       }
+      .project {
+        a {
+          color: #17a54b;
+          &:hover {
+            color: red;
+          }
+        }
+      }
+      
       .code {
         padding-bottom: 20px;
         pre {

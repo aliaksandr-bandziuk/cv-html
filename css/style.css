@@ -61,6 +61,8 @@ a {
 .container {
   max-width: 1220px;
   margin: 0 auto;
+  -webkit-box-shadow: 2px 2px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 2px 2px 8px 0px rgba(34, 60, 80, 0.2);
   box-shadow: 2px 2px 8px 0px rgba(34, 60, 80, 0.2);
   font-family: "Roboto", sans-serif;
 }
@@ -151,7 +153,7 @@ a {
   transition: all ease-in-out 0.2s;
 }
 .container .cv__wrapper .cv__details .hero .hero__langs .language .level-english {
-  width: 70%;
+  width: 60%;
 }
 .container .cv__wrapper .cv__details .hero .hero__langs .language .level-bel {
   width: 90%;
@@ -188,15 +190,6 @@ a {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.container .cv__wrapper .cv__description .experience .work .work__name {
-  font-size: 20px;
-  margin-bottom: 15px;
-}
-.container .cv__wrapper .cv__description .experience .work .work__time {
-  font-size: 16px;
-  color: grey;
-  margin-bottom: 15px;
-}
 .container .cv__wrapper .cv__description .experience .work ul {
   padding-left: 25px;
 }
@@ -204,6 +197,39 @@ a {
   list-style: circle;
   font-size: 16px;
   line-height: 25px;
+}
+.container .cv__wrapper .cv__description .experience .position-name {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.container .cv__wrapper .cv__description .experience .period {
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 15px;
+}
+.container .cv__wrapper .cv__description .projects-title {
+  margin-top: 20px;
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 15px;
+}
+.container .cv__wrapper .cv__description .projects {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+@media (max-width: 470px) {
+  .container .cv__wrapper .cv__description .projects {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+.container .cv__wrapper .cv__description .project a {
+  color: #17a54b;
+}
+.container .cv__wrapper .cv__description .project a:hover {
+  color: red;
 }
 .container .cv__wrapper .cv__description .code {
   padding-bottom: 20px;
